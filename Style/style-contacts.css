@@ -119,7 +119,7 @@ body {
     flex-direction: column;
 }
 
-.contato {
+.contact {
     width: 100%;
     min-height: 550px;
 
@@ -133,20 +133,6 @@ body {
     overflow: hidden;
 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.formulario {
-    padding: 50px;
-}
-
-.formulario h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.formulario > p {
-    color: #666;
-    margin-bottom: 30px;
 }
 
 
@@ -210,7 +196,7 @@ button:hover {
     background-color: #3730a3;
 }
 
-.informacoes {
+.informations {
     background-color: #4f46e5;
     color: white;
     padding: 30px;
@@ -222,20 +208,20 @@ button:hover {
     gap: 15px;
 }
 
-.informacoes h2 {
+.informations h2 {
     font-size: 35px;
     margin-bottom: 40px;
 }
 
-.contato-item {
+.contact-item {
     display: flex;
 }
 
-.contato-item > span {
+.contact-item > span {
     font-size: 25px;
 }
 
-.contato-item p {
+.contact-item p {
     color: #ddd;
 }
 

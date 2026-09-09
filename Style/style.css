@@ -36,7 +36,7 @@
 
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -125,7 +125,9 @@
     margin-bottom: 1rem;
 }
 
-.about-content button{
+.about-content button,
+.about-content a{
+    text-decoration: none;
     color: white;
     border: none;
     padding: 12px 24px;
