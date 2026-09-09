@@ -85,7 +85,9 @@
     max-width: 600px;    
 }
 
-.image-text button{
+.image-text button,
+.image-text a{
+    text-decoration: none;
     color: #000000;
     border: none;
     padding: 12px 24px;
@@ -240,7 +242,7 @@ footer{
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #fff;
+    color: #000;
     margin-bottom: 14px;
 }
  

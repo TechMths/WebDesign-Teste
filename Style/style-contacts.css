@@ -56,7 +56,6 @@
     color: #e94560;
 }
 
-
 .background {
     position: relative;
     height: 100vh;
@@ -110,7 +109,135 @@
     font-size: 1.2rem;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contato {
+    width: 100%;
+    min-height: 550px;
+
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+    padding: 50px;
+}
+
+.formulario h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.formulario > p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 7px;
+
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4f46e5;
+}
+
+textarea {
+    height: 120px;
+
+    resize: vertical;
+}
+
+button {
+    padding: 13px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #4f46e5;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+.informacoes {
+    background-color: #4f46e5;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+.informacoes h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.contato-item {
+    display: flex;
+}
+
+.contato-item > span {
+    font-size: 25px;
+}
+
+.contato-item p {
+    color: #ddd;
+}
 
 footer{
     border-top: 1px solid #fff;
@@ -147,7 +274,7 @@ footer{
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #fff;
+    color: #000;
     margin-bottom: 14px;
 }
  
