@@ -118,6 +118,30 @@
     justify-content: center;
     text-align: center;
     color: #fff;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.about-image{
+    height: 25rem;
+    width: 25rem;
+}
+
+.interprise-images{
+    display: flex;
+    gap: 40px;
+}
+
+.image-interprise{
+    margin-top: 5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+}
+
+.image-interprise:hover{
+    transform: scale(1.2);
 }
 
 .about-content h1{
@@ -185,11 +209,30 @@
     width: 100rem;
     border-radius: 5%;
     background-color: #fff;
+    transition: transform 0.3s ease;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
+
+.underline{
+  text-decoration: none;
+  color: #222;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px; 
+  background-position: 0 100%; 
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.nav-list-itens li:hover {
+    transform: scale(1.2);
+}
+
+.nav-list-itens li:hover .underline{
+    background-size: 100% 2px;
 }
 
 .nav-list-itens li img{
@@ -207,7 +250,7 @@
 .nav-list-itens li span {
     margin-bottom: 4rem; 
     text-align: center;
-}
+}  
 
 footer{
     border-top: 1px solid #fff;
